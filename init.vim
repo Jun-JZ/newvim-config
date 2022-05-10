@@ -26,6 +26,7 @@ set cursorline
 set showtabline=2
 set updatetime=300
 set timeoutlen=500
+set mouse=a
 
 "VS Code extension settings
 if exists('g:vscode')
