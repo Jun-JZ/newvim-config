@@ -17,5 +17,3 @@ nmap gcc <Plug>VSCodeCommentaryLine
 " Folds
 nnoremap <silent> za <Cmd>call VSCodeNotify('editor.toggleFold')<CR>
 
-" Marks
-nnoremap <silent> dm :delm! \| delm A-Z0-9<CR>
