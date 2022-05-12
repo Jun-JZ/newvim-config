@@ -34,4 +34,4 @@ if exists('g:vscode')
 endif
 
 inoremap jk <esc>
-nnoremap dm :delm! \| delm A-Z0-9<CR>
+nnoremap m<BS> :delm! \| delm A-Z0-9<CR>
