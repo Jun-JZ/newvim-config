@@ -33,5 +33,11 @@ if exists('g:vscode')
   source $HOME/.config/nvim/vscode/settings.vim
 endif
 
+" quick escape
 inoremap jk <esc>
+" delete all marks
 nnoremap m<BS> :delm! \| delm A-Z0-9<CR>
+
+" Move text up and down
+xnoremap <silent> J :move '>+1<CR>gv-gv
+xnoremap <silent> K :move '<-2<CR>gv-gv
